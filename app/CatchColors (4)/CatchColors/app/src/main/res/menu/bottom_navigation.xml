@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cnb_unselectedColor="#666666">
+
+    <item
+        android:id="@+id/FragmentAnavi"
+        android:icon="@drawable/cc_a_icon"
+        android:title="테스트A"
+        app:cnb_iconColor="@color/FragmentA_navigation_color"/>
+
+    <item
+        android:id="@+id/FragmentBnavi"
+        android:icon="@drawable/cc_b_icon"
+        android:title="테스트B"
+        app:cnb_iconColor="@color/FragmentB_navigation_color"/>
+
+    <item
+        android:id="@+id/FragmentCnavi"
+        android:icon="@drawable/cc_c_icon"
+        android:title="테스트C"
+        app:cnb_iconColor="@color/FragmentC_navigation_color"/>
+
+    <item
+        android:id="@+id/FragmentDnavi"
+        android:icon="@drawable/cc_d_icon"
+        android:title="테스트D"
+        app:cnb_iconColor="@color/FragmentD_navigation_color"/>
+
+</menu>
